@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>FIRST DATE</h1>
+    </div>
+
+    <div id="contenedor">
+        <div class="row">
+            <label>Gender</label>
+            <select id="gender">
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+
+            </select>
+        </div>
+        <div class="row">
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="John"><br>
+
+            <label for="hobby">Hobby</label><br>
+            <input type="text" id="hobby" name="hobby" placeholder="dance">
+        </div>
+
+        <div class="row">
+            <button id="btnSave">SAVE</button>
+        </div>
+        
+        <div class="contenedor2">
+
+            <div id="usuarios">
+            <h2>Users</h2>
+        </div>
+
+            <table class=" table table-hover" id="friendsTable">
+
+                <thead>
+                    <tr>
+                        <th>Gender</th>
+                        <th>Name</th>
+                        <th>Hobby</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/interfaz.js"></script>
+</body>
+
+</html>
